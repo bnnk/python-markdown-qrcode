@@ -17,7 +17,7 @@ QRcode markdown filter
 
 import markdown
 import StringIO
-from QrCodeLib import *
+from .QrCodeLib import *
 from markdown import etree
 from base64 import b64encode
 
